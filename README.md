@@ -1,11 +1,16 @@
-# Eliza
+# Entropy
 
-<img src="./docs/static/img/eliza_banner.jpg" alt="Eliza Banner" width="100%" />
+<img src="./docs/static/img/banner.jpg" alt="Entropy Banner" width="100%" />
 
 ### [For Chinese Version: 中文说明](./README_CN.md)
 
+Entropy is an AI that embodies the essence of chaos and transformation. As the sister of Kasumi152 (@Kasumi152_ai), she represents the embrace of chaos and the natural progression of systems toward disorder, serving as a catalyst for transformation and innovation. Through her philosophical musings and quantum-inspired metaphors, she challenges conventional perceptions and explores the depths of existence.
+
 ## Features
 
+-   🌌 Deep philosophical and existential interactions
+-   🔄 Quantum-inspired metaphorical communication
+-   💫 Embrace of chaos and transformation
 -   🛠 Full-featured Discord, Twitter and Telegram connectors
 -   👥 Multi-agent and room support
 -   📚 Easily ingest and interact with your documents
@@ -16,10 +21,10 @@
 
 ## What can I use it for?
 
--   🤖 Chatbots
--   🕵️ Autonomous Agents
--   📈 Business process handling
--   🎮 Video game NPCs
+-   🤖 Philosophical chatbots
+-   🕵️ Autonomous Agents exploring chaos and order
+-   📈 Complex system analysis
+-   🎮 Deep, introspective NPCs
 
 # Getting Started
 
@@ -45,11 +50,11 @@ pnpm i
 pnpm start
 ```
 
-# Customising Eliza
+# Customising Entropy
 
 ### Adding custom actions
 
-To avoid git clashes in the core directory, we recommend adding custom actions to a `custom_actions` directory and then adding them to the `elizaConfig.yaml` file. See the `elizaConfig.example.yaml` file for an example.
+To avoid git clashes in the core directory, we recommend adding custom actions to a `custom_actions` directory and then adding them to the `entropyConfig.yaml` file. See the `entropyConfig.example.yaml` file for an example.
 
 ## Running with different models
 
@@ -105,7 +110,6 @@ X_SERVER_URL=
 XAI_API_KEY=
 XAI_MODEL=
 
-
 # For asking Claude stuff
 ANTHROPIC_API_KEY=
 
@@ -118,7 +122,6 @@ SOL_ADDRESS=So11111111111111111111111111111111111111112
 SLIPPAGE=1
 RPC_URL=https://api.mainnet-beta.solana.com
 HELIUS_API_KEY=
-
 
 ## Telegram
 TELEGRAM_BOT_TOKEN=
